@@ -1,1 +1,19 @@
 Pongo un poco de texto
+
+    Comandos relacionados con un repositorio remoto:
+        git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+        git pusho git push origin main(Ambos logran el mismo objetivo en este contexto)
+    Comandos relacionados con el flujo de trabajo:
+        git add .
+        git commit -m "A message describing what you have done to make this snapshot different"
+    Comandos relacionados con el estado de comprobación o el historial de registros
+        git status
+        git log
+
+La sintaxis básica de Git es program | action | destination.
+
+Por ejemplo,
+
+    git add .Se lee como git | add | ., donde el período representa todo en el directorio actual;
+    git commit -m "message"Se lee como git | commit -m | "message"; y
+    git statusSe lee como git | status | (no destination).
